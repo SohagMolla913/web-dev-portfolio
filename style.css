@@ -58,6 +58,7 @@ nav ul {
 .banner {
   display: flex;
   justify-content: space-between;
+  margin: 0 35px 0 200px;
 }
 .banner-content {
   max-width: 580px;
