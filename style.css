@@ -54,6 +54,9 @@ nav ul {
 }
 
 /*Banner style*/
+.bg-secondary {
+  background-color: #fff8f3;
+}
 
 .banner {
   display: flex;
@@ -72,4 +75,41 @@ nav ul {
 .banner-title {
   font-weight: 600;
   font-size: 85px;
+}
+
+/* section sectore */
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+
+.section-decription {
+  font-size: 18px;
+  color: #757575;
+}
+
+/* main style*/
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about style */
+
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.item-description {
+  font-weight: bold;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
 }
